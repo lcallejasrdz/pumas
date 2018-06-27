@@ -44,7 +44,7 @@
         @yield('styles')
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container-full">
             @include('layout.menus.principal')
             @yield('content')
             @include('layout.footer')
