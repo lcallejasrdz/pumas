@@ -54,7 +54,9 @@
 		<div class="col-xs-12">
 			<h2 class="text-center">PROGRAMAS PARA JUGADORES</h2>
 		</div>
-		<div class="col-md-6"></div>
+		<div class="col-md-6 img-module-container">
+			<img src="https://placehold.it/600x600" alt="...">
+		</div>
 		<div class="col-md-6">
 			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
@@ -158,7 +160,7 @@
 
 	{{-- CONTACTO --}}
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 img-module-container">
 			<img src="https://placehold.it/600x600" alt="...">
 		</div>
 		<div class="col-md-6">

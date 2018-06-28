@@ -1,5 +1,8 @@
-<div>
-    <p class="text-center title-head bg-gold">ESCUELA DE FÚTBOL PUMAS MADIN <a href="#"><i class="fa fa-facebook-square fa-fw"></i></a> <a href="#"><i class="fa fa-instagram fa-fw"></i></a> <a href="#"><i class="fa fa-youtube-square fa-fw"></i></a></p>
+<div class="row bg-gold">
+    <div class="col-xs-4 col-sm-2 col-md-1"></div>
+    <div class="col-xs-8 col-sm-10 col-md-11">
+        <p class="text-center title-head">ESCUELA DE FÚTBOL PUMAS MADIN<br class="hidden-md hidden-lg"><a href="#"><i class="fa fa-facebook-square fa-fw"></i></a><a href="#"><i class="fa fa-instagram fa-fw"></i></a><a href="#"><i class="fa fa-youtube-square fa-fw"></i></a></p>
+    </div>
 </div>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -12,7 +15,8 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ URL::route('home') }}">
-                <img src="{{ URL::to('assets/images/logo.svg') }}" alt="{{ env('APP_NAME') }}" class="navbar-logo">
+                {{-- <img src="{{ URL::to('assets/images/logo.svg') }}" alt="{{ env('APP_NAME') }}" class="navbar-logo"> --}}
+                <img src="{{ URL::to('https://placehold.it/100x100') }}" alt="{{ env('APP_NAME') }}" class="navbar-logo">
             </a>
         </div>
 

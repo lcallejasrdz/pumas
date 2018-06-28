@@ -10,7 +10,17 @@ body {
 
 .title-head a {
 	color: #fff;
-	margin-left: 25px;
+}
+
+@media (min-width: 992px) {
+	.title-head a:nth-child(2) {
+		margin-left: 30px;
+	}
+}
+
+.title-head a:nth-child(3),
+.title-head a:nth-child(4) {
+	margin-left: 30px;
 }
 
 .navbar-default {
@@ -68,4 +78,57 @@ body {
 .nav > li > a:focus, .nav > li > a:hover {
     text-decoration: none;
     background-color: #eee;
+}
+
+/* Accordion */
+#accordion div.panel-heading {
+	background-color: #122337;
+	color: #fff;
+	border: 2px solid #122337;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#accordion div.panel-collapse {
+	border: 2px solid #122337;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#accordion .panel-default {
+	border: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.img-module-container {
+	text-align: center;
+}
+
+.img-module-container img {
+	padding: 25px;
+}
+
+.footer {
+	background-color: #122337;
+	color: #fff;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:nth-child(3),
+.footer a:nth-child(4) {
+	margin-left: 30px;
+}
+
+.footer img {
+	padding: 25px;
+}
+
+@media (min-width: 768px) {
+	.footer p {
+		margin-top: 65px;
+	}
 }
