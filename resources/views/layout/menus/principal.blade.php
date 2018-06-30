@@ -16,7 +16,7 @@
             </button>
             <a class="navbar-brand" href="{{ URL::route('home') }}">
                 {{-- <img src="{{ URL::to('assets/images/logo.svg') }}" alt="{{ env('APP_NAME') }}" class="navbar-logo"> --}}
-                <img src="{{ URL::to('https://placehold.it/100x100') }}" alt="{{ env('APP_NAME') }}" class="navbar-logo">
+                <img src="{{ URL::to('/assets/images/logo.svg') }}" alt="{{ env('APP_NAME') }}" class="navbar-logo">
             </a>
         </div>
 
