@@ -1,6 +1,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #F1F1F1;
+	color: #122337;
 }
 
 .title-head {
@@ -76,6 +77,10 @@ body {
 	color: #fff;
 }
 
+.color-blue {
+	color: #122337;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #122337;
 }
@@ -100,6 +105,12 @@ body {
 #accordion div.panel-collapse {
 	border: 2px solid #122337;
 	border-radius: 15px 15px 15px 15px;
+}
+
+.bases-content {
+	border: 2px solid #122337;
+	border-radius: 15px 15px 15px 15px;
+	padding: 15px;
 }
 
 #accordion .panel-default {
