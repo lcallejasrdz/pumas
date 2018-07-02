@@ -1,5 +1,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F1F1F1;
 }
 
 .title-head {
@@ -66,7 +67,15 @@ body {
 	background-color: #928654;
 }
 
+.bg-blue {
+	background-color: #122337;
+}
+
 /* Color */
+.color-white {
+	color: #fff;
+}
+
 .navbar-default .navbar-nav > li > a {
     color: #122337;
 }
@@ -132,4 +141,8 @@ img {
 	.footer p {
 		margin-top: 65px;
 	}
+}
+
+.padding-25 > * {
+	padding: 25px;
 }
