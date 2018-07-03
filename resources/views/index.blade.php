@@ -3,8 +3,12 @@
 @section('title')
 
 @section('styles')
+    {{-- WowSlider --}}
+	{{ Html::style('assets/plugins/wowslider/engine1/style.css') }}
+    {{ Html::script("assets/plugins/wowslider/engine1/jquery.js") }}
+
     {{-- Slick CSS file --}}
-    {{ Html::style('assets/plugins/slick/slick.css') }}
+    {{-- {{ Html::style('assets/plugins/slick/slick.css') }}
     {{ Html::style('assets/plugins/slick/slick-theme.css') }}
     <style type="text/css">
         .slider {
@@ -31,7 +35,7 @@
         .slick-current {
             opacity: 1;
         }
-    </style>
+    </style> --}}
 @endsection
 
 @section('content')
@@ -177,8 +181,42 @@
 			<h2 class="text-center">NUESTRAS INSTALACIONES</h2>
 		</div>
 		<div class="col-xs-12">
+			<!-- Start WOWSlider.com BODY section -->
+			<div id="wowslider-container1">
+				<div class="ws_images">
+					<ul>
+						<li>
+							<img src="{{ URL::to('/assets/images/index/slide2a.png') }}" alt="" title="" id="wows1_0"/>
+						</li>
+						<li>
+							<img src="{{ URL::to('/assets/images/index/slide2b.png') }}" alt="wow slider" title="" id="wows1_1"/>
+						</li>
+						<li>
+							<img src="{{ URL::to('/assets/images/index/slide2c.png') }}" alt="" title="" id="wows1_2"/>
+						</li>
+					</ul>
+				</div>
+				<div class="ws_bullets">
+					<div>
+						<a href="#" title="">
+							<span><img src="{{ URL::to('/assets/images/index/slide2a.png') }}" alt=""/>1</span>
+						</a>
+						<a href="#" title="">
+							<span><img src="{{ URL::to('/assets/images/index/slide2b.png') }}" alt=""/>2</span>
+						</a>
+						<a href="#" title="">
+							<span><img src="{{ URL::to('/assets/images/index/slide2c.png') }}" alt=""/>3</span>
+						</a>
+					</div>
+				</div>
+				<div class="ws_shadow"></div>
+			</div>
+			{{ Html::script("assets/plugins/wowslider/engine1/wowslider.js") }}
+			{{ Html::script("assets/plugins/wowslider/engine1/script.js") }}
+			<!-- End WOWSlider.com BODY section -->
+
 			{{-- Medium --}}
-			<section class="center slider visible-md visible-lg visible-xl">
+			{{-- <section class="center slider visible-md visible-lg visible-xl">
     			<div>
       				<img src="{{ URL::to('/assets/images/index/slide2a.png') }}" alt="...">
     			</div>
@@ -197,10 +235,10 @@
     			<div>
       				<img src="{{ URL::to('/assets/images/index/slide2c.png') }}" alt="...">
     			</div>
-  			</section>
+  			</section> --}}
 
 			{{-- Small --}}
-			<div id="carousel-instalations" class="carousel slide hidden-md hidden-lg hidden-xl" data-ride="carousel">
+			{{-- <div id="carousel-instalations" class="carousel slide hidden-md hidden-lg hidden-xl" data-ride="carousel">
 		  		<!-- Indicators -->
 		  		<ol class="carousel-indicators">
 		    		<li data-target="#carousel-instalations" data-slide-to="0" class="active"></li>
@@ -236,7 +274,7 @@
 		    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		    		<span class="sr-only">Next</span>
 		  		</a>
-			</div>
+			</div> --}}
 		</div>
 	</div>
 
@@ -271,7 +309,7 @@
 
 @section('scripts')
     {{-- Slick plugin --}}
-    {{ Html::script("assets/plugins/slick/slick.js") }}
+    {{-- {{ Html::script("assets/plugins/slick/slick.js") }}
     <script type="text/javascript">
         $(document).on('ready', function() {
             $(".center").slick({
@@ -282,5 +320,5 @@
                 slidesToScroll: 3
             });
         });
-    </script>
+    </script> --}}
 @endsection
