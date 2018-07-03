@@ -1,7 +1,7 @@
 <div class="row bg-gold">
     <div class="col-xs-4 col-sm-2 col-md-1"></div>
     <div class="col-xs-8 col-sm-10 col-md-11">
-        <p class="text-center title-head">ESCUELA DE FÚTBOL PUMAS MADIN<br class="hidden-md hidden-lg"><a href="#"><i class="fa fa-facebook-square fa-fw"></i></a><a href="#"><i class="fa fa-instagram fa-fw"></i></a><a href="#"><i class="fa fa-youtube-square fa-fw"></i></a></p>
+        <p class="text-center title-head text-uppercase">{{ env('APP_NAME') }}<br class="hidden-md hidden-lg"><a href="#"><i class="fa fa-facebook-square fa-fw"></i></a><a href="#"><i class="fa fa-instagram fa-fw"></i></a><a href="#"><i class="fa fa-youtube-square fa-fw"></i></a></p>
     </div>
 </div>
 <nav class="navbar navbar-default">
@@ -29,27 +29,27 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('lang', [\App::getLocale() == 'es' ? 'en' : 'es']) }}" class="text-blue">
+                    <a href="{{ URL::route('about_us') }}" class="text-blue">
                         NOSOTROS
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('lang', [\App::getLocale() == 'es' ? 'en' : 'es']) }}" class="text-blue">
+                    <a href="{{ URL::route('installations') }}" class="text-blue">
                         INSTALACIONES
                     </a>
                 </li>
-                <li>
+                {{-- <li>
                     <a href="{{ url('lang', [\App::getLocale() == 'es' ? 'en' : 'es']) }}" class="text-blue">
                         PROGRAMAS
                     </a>
-                </li>
+                </li> --}}
                 <li>
-                    <a href="{{ url('lang', [\App::getLocale() == 'es' ? 'en' : 'es']) }}" class="text-blue">
+                    <a href="{{ URL::route('bases') }}" class="text-blue">
                         BASES
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('lang', [\App::getLocale() == 'es' ? 'en' : 'es']) }}" class="text-blue">
+                    <a href="{{ URL::route('contact') }}" class="text-blue">
                         CONTACTO
                     </a>
                 </li>

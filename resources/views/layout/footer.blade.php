@@ -3,6 +3,9 @@
 		<img src="{{ URL::to('/assets/images/logo_white.svg') }}" alt="{{ env('APP_NAME') }}">
 	</div>
 	<div class="col-sm-10">
-		<p class="text-center">ESCUELA DE FÚTBOL PUMAS MADÍN<br><a href="#"><i class="fa fa-facebook-square fa-fw"></i></a><a href="#"><i class="fa fa-instagram fa-fw"></i></a><a href="#"><i class="fa fa-youtube-square fa-fw"></i></a></p>
+		<p class="text-center">
+			<a href="{{ URL::route('notice_of_privacy') }}">Aviso de Privacidad</a>
+		</p>
+		<p class="text-center text-uppercase">{{ env('APP_NAME') }}<br><a href="#"><i class="fa fa-facebook-square fa-fw"></i></a><a href="#"><i class="fa fa-instagram fa-fw"></i></a><a href="#"><i class="fa fa-youtube-square fa-fw"></i></a></p>
 	</div>
 </div>

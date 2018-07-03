@@ -3,5 +3,6 @@
 return [
 
     'title'                  		=> 'Inicio',
+    'send'							=> 'Enviar',
 
 ];

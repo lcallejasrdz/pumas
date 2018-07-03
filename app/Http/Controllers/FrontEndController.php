@@ -34,10 +34,31 @@ class FrontEndController extends Controller
      * Website
      */
     public function index(){
-    	$active = 'index';
+    	$active = 'home';
     	$cart = Session::get('cart');
 
     	return view('index', compact($this->compact));
+    }
+
+    public function getAboutUs(){
+        $active = 'about_us';
+        $cart = Session::get('cart');
+
+        return view('website.about_us', compact($this->compact));
+    }
+
+    public function getInstallations(){
+        $active = 'installations';
+        $cart = Session::get('cart');
+
+        return view('website.installations', compact($this->compact));
+    }
+
+    public function getBases(){
+        $active = 'bases';
+        $cart = Session::get('cart');
+
+        return view('website.bases', compact($this->compact));
     }
 
     public function getContact(){
@@ -59,6 +80,13 @@ class FrontEndController extends Controller
         }
 
         return Redirect::back()->with('error', trans('contact.send_mail.error'));
+    }
+
+    public function getNoticeOfPrivacy(){
+        $active = 'notice_of_privacy';
+        $cart = Session::get('cart');
+
+        return view('website.notice_of_privacy', compact($this->compact));
     }
 
     /*

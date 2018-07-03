@@ -68,7 +68,7 @@ class SendMail extends Model
                             $msg .= "<tbody>";
                                 $msg .= "<tr>";
                                     $msg .= "<td style='text-align: center;'>";
-                                        $msg .= "<img src='". URL::to('assets/images/logo.png') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
+                                        $msg .= "<img src='". URL::to('assets/images/logo.svg') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
                                     $msg .= "</td>";
                                 $msg .= "</tr>";
                             $msg .= "</tbody>";
@@ -209,7 +209,7 @@ class SendMail extends Model
                             $msg .= "<tbody>";
                                 $msg .= "<tr>";
                                     $msg .= "<td style='text-align: center;'>";
-                                        $msg .= "<img src='". URL::to('assets/images/logo.png') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
+                                        $msg .= "<img src='". URL::to('assets/images/logo.svg') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
                                     $msg .= "</td>";
                                 $msg .= "</tr>";
                             $msg .= "</tbody>";
@@ -374,7 +374,7 @@ class SendMail extends Model
                             $msg .= "<tbody>";
                                 $msg .= "<tr>";
                                     $msg .= "<td style='text-align: center;'>";
-                                        $msg .= "<img src='". URL::to('assets/images/logo.png') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
+                                        $msg .= "<img src='". URL::to('assets/images/logo.svg') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
                                     $msg .= "</td>";
                                 $msg .= "</tr>";
                             $msg .= "</tbody>";
@@ -552,7 +552,7 @@ class SendMail extends Model
                             $msg .= "<tbody>";
                                 $msg .= "<tr>";
                                     $msg .= "<td style='text-align: center;'>";
-                                        $msg .= "<img src='". URL::to('assets/images/logo.png') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
+                                        $msg .= "<img src='". URL::to('assets/images/logo.svg') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
                                     $msg .= "</td>";
                                 $msg .= "</tr>";
                             $msg .= "</tbody>";
@@ -725,7 +725,7 @@ class SendMail extends Model
                             $msg .= "<tbody>";
                                 $msg .= "<tr>";
                                     $msg .= "<td style='text-align: center;'>";
-                                        $msg .= "<img src='". URL::to('assets/images/logo.png') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
+                                        $msg .= "<img src='". URL::to('assets/images/logo.svg') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
                                     $msg .= "</td>";
                                 $msg .= "</tr>";
                             $msg .= "</tbody>";
@@ -911,7 +911,7 @@ class SendMail extends Model
                             $msg .= "<tbody>";
                                 $msg .= "<tr>";
                                     $msg .= "<td style='text-align: center;'>";
-                                        $msg .= "<img src='". URL::to('assets/images/logo.png') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
+                                        $msg .= "<img src='". URL::to('assets/images/logo.svg') ."' alt='".env('APP_NAME')."' style='margin-top: 15px; margin-bottom: 15px;'>";
                                     $msg .= "</td>";
                                 $msg .= "</tr>";
                             $msg .= "</tbody>";
