@@ -155,7 +155,7 @@
 		<div class="col-xs-12">
 			<h2 class="text-center">PROGRAMAS</h2>
 		</div>
-		<div class="col-md-8">
+		<div class="col-xs-12 col-md-8">
 			<div class="bases-content">
 				<ul>
 					<li>Contamos con categorías mixtas</li>
