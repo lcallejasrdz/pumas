@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ url('lang', [\App::getLocale() == 'es' ? 'en' : 'es']) }}" class="text-blue">
+                    <a href="{{ URL::route('home') }}" class="text-blue">
                         INICIO
                     </a>
                 </li>

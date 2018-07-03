@@ -161,26 +161,6 @@ img {
 	padding: 25px;
 }
 
-.programs {
-	position: relative;
-}
-
-.programs-text {
-	margin-bottom: 25px;
-}
-
-@media (min-width: 768px) {
-	.programs-text {
-		position: absolute;
-		right: 0%;
-		top: 18vw;
-	}
-}
-
-@media (min-width: 992px) {
-	.programs-text {
-		position: absolute;
-		right: 0%;
-		top: 11vw;
-	}
+.panel {
+	background-color: transparent !important;
 }

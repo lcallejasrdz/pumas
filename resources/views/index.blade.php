@@ -3,6 +3,35 @@
 @section('title')
 
 @section('styles')
+    {{-- Slick CSS file --}}
+    {{ Html::style('assets/plugins/slick/slick.css') }}
+    {{ Html::style('assets/plugins/slick/slick-theme.css') }}
+    <style type="text/css">
+        .slider {
+            width: 90%;
+            margin: 25px auto;
+        }
+        .slick-slide {
+            margin: 0px 10px;
+        }
+        .slick-slide img {
+            width: 100%;
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+        .slick-active {
+            opacity: .5;
+        }
+        .slick-current {
+            opacity: 1;
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -45,14 +74,88 @@
 	</div>
 
 	{{-- PROGRAMAS PARA JUGADORES --}}
-	<div class="row color-blue programs">
+	<div class="row color-blue">
+		<div class="col-xs-12">
+			<h2 class="text-center">BASES</h2>
+		</div>
+		<div class="col-md-5 img-module-container">
+			<img src="{{ URL::to('/assets/images/index/flag.png') }}" alt="..." class="padding-bottom-0">
+		</div>
+		<div class="col-md-7">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+  						<h4 class="panel-title">
+    						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      							DEL CLUB DEPORTIVO
+    						</a>
+  						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+  						<div class="panel-body">
+    						<ol type="A">
+								<li>Entrenamientos de lunes a jueves de 16:30 a 18:30</li>
+								<li>Profesores certificados, capacitados y con experiencia</li>
+								<li>Programa de entrenamiento (infantil de desarrollo – juvenil de formación)</li>
+								<li>Contamos con material completo para poder desarrollar los entrenamientos y calentamientos previos a los partidos (tablas, conos, discos, lanzas, balones, casacas)</li>
+								<li>Reuniones bimestrales con padres o tutores para informar desarrollo de los alumnos</li>
+							</ol>
+  						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+  						<h4 class="panel-title">
+    						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      							DE LOS ALUMNOS
+    						</a>
+  						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+  						<div class="panel-body">
+    						<ol type="A">
+								<li>Equipo o de acuerdo a su categoría y/o aptitud de juego</li>
+								<li>Juegos en fin de semana dependiendo de la liga y/o torneo</li>
+								<li>Uniformes oficiales</li>
+								<li>Respetar a sus compañeros, cuerpo técnico, a sus adversarios, las instalaciones y a las porras</li>
+							</ol>
+  						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+  						<h4 class="panel-title">
+    						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      							ADMINISTRATIVO
+    						</a>
+  						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+  						<div class="panel-body">
+    						<ol type="A">
+								<li>Inscripciones abiertas todo el año</li>
+								<li>Registro del alumno ante Club Universidad con seguro federado</li>
+								<li>Creación de expediente (personal, familiar, médico, deportivo)</li>
+								<li>Entrega de reglamentos y plan de trabajo</li>
+								<li>Visitas a estadios y partidos oficiales</li>
+								<li>Torneos locales, regionales, estatales y extranjeros</li>
+								<li>Publicación de estadísticas de los torneos</li>
+								<li>Atención a padres y/o tutores</li>
+								<li>Responsable de la Filial</li>
+							</ol>
+  						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{{-- Bases --}}
+	<div class="row bg-blue color-white padding-25">
 		<div class="col-xs-12">
 			<h2 class="text-center">PROGRAMAS</h2>
 		</div>
-		<div class="col-md-6 img-module-container">
-			<img src="{{ URL::to('/assets/images/index/flag.png') }}" alt="..." class="padding-bottom-0">
-		</div>
-		<div class="col-md-6 col-md-8 programs-text">
+		<div class="col-md-8">
 			<div class="bases-content">
 				<ul>
 					<li>Contamos con categorías mixtas</li>
@@ -62,88 +165,8 @@
 					<li>Equipo y entrenamiento de alto rendimiento</li>
 				</ul>
 			</div>
-			{{-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-				<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="headingOne">
-  						<h4 class="panel-title">
-    						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      							Collapsible Group Item #1
-    						</a>
-  						</h4>
-					</div>
-					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-  						<div class="panel-body">
-    						<p class="text-justify">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-  						</div>
-					</div>
-				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="headingTwo">
-  						<h4 class="panel-title">
-    						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      							Collapsible Group Item #2
-    						</a>
-  						</h4>
-					</div>
-					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-  						<div class="panel-body">
-    						<p class="text-justify">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-  						</div>
-					</div>
-				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading" role="tab" id="headingThree">
-  						<h4 class="panel-title">
-    						<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      							Collapsible Group Item #3
-    						</a>
-  						</h4>
-					</div>
-					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-  						<div class="panel-body">
-    						<p class="text-justify">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-  						</div>
-					</div>
-				</div>
-			</div> --}}
 		</div>
-	</div>
-
-	{{-- Bases --}}
-	<div class="row bg-blue color-white padding-25">
-		<div class="col-xs-12">
-			<h2 class="text-center">BASES DEL CLUB</h2>
-		</div>
-		<div class="col-xs-12 col-md-8">
-			<p><strong>DEL CLUB DEPORTIVO</strong></p>
-			<ol type="A">
-				<li>Entrenamientos de lunes a jueves de 16:30 a 18:30</li>
-				<li>Profesores certificados, capacitados y con experiencia</li>
-				<li>Programa de entrenamiento (infantil de desarrollo – juvenil de formación)</li>
-				<li>Contamos con material completo para poder desarrollar los entrenamientos y calentamientos previos a los partidos (tablas, conos, discos, lanzas, balones, casacas)</li>
-				<li>Reuniones bimestrales con padres o tutores para informar desarrollo de los alumnos</li>
-			</ol>
-			<p><strong>DE LOS ALUMNOS</strong></p>
-			<ol type="A">
-				<li>Equipo o de acuerdo a su categoría y/o aptitud de juego</li>
-				<li>Juegos en fin de semana dependiendo de la liga y/o torneo</li>
-				<li>Uniformes oficiales</li>
-				<li>Respetar a sus compañeros, cuerpo técnico, a sus adversarios, las instalaciones y a las porras</li>
-			</ol>
-			<p><strong>ADMINISTRATIVO</strong></p>
-			<ol type="A">
-				<li>Inscripciones abiertas todo el año</li>
-				<li>Registro del alumno ante Club Universidad con seguro federado</li>
-				<li>Creación de expediente (personal, familiar, médico, deportivo)</li>
-				<li>Entrega de reglamentos y plan de trabajo</li>
-				<li>Visitas a estadios y partidos oficiales</li>
-				<li>Torneos locales, regionales, estatales y extranjeros</li>
-				<li>Publicación de estadísticas de los torneos</li>
-				<li>Atención a padres y/o tutores</li>
-				<li>Responsable de la Filial</li>
-			</ol>
-		</div>
-		<div class="col-xs-12 col-md-4 img-module-container">
+		<div class="col-md-4 img-module-container">
 			<img src="{{ URL::to('/assets/images/index/player.png') }}" alt="...">
 		</div>
 	</div>
@@ -154,7 +177,8 @@
 			<h2 class="text-center">NUESTRAS INSTALACIONES</h2>
 		</div>
 		<div class="col-xs-12">
-			{{-- <section class="center slider visible-md visible-lg visible-xl">
+			{{-- Medium --}}
+			<section class="center slider visible-md visible-lg visible-xl">
     			<div>
       				<img src="{{ URL::to('/assets/images/index/slide2a.png') }}" alt="...">
     			</div>
@@ -173,8 +197,10 @@
     			<div>
       				<img src="{{ URL::to('/assets/images/index/slide2c.png') }}" alt="...">
     			</div>
-  			</section> --}}
-			<div id="carousel-instalations" class="carousel slide {{-- hidden-md hidden-lg hidden-xl --}}" data-ride="carousel">
+  			</section>
+
+			{{-- Small --}}
+			<div id="carousel-instalations" class="carousel slide hidden-md hidden-lg hidden-xl" data-ride="carousel">
 		  		<!-- Indicators -->
 		  		<ol class="carousel-indicators">
 		    		<li data-target="#carousel-instalations" data-slide-to="0" class="active"></li>
@@ -244,4 +270,17 @@
 @endsection
 
 @section('scripts')
+    {{-- Slick plugin --}}
+    {{ Html::script("assets/plugins/slick/slick.js") }}
+    <script type="text/javascript">
+        $(document).on('ready', function() {
+            $(".center").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+        });
+    </script>
 @endsection
