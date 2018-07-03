@@ -7,7 +7,7 @@ body {
 .title-head {
 	margin-bottom: 0;
 	color: #fff;
-	padding: 5px;
+	padding: 10px;
 }
 
 .title-head a {
@@ -56,11 +56,6 @@ body {
 .container-full .row {
     margin-right: 0px;
     margin-left: 0px;
-}
-
-.container-full .row > div {
-	padding-right: 0;
-	padding-left: 0;
 }
 
 /* Background Color */
@@ -154,6 +149,38 @@ img {
 	}
 }
 
+.padding-0 {
+	padding: 0;
+}
+
+.padding-bottom-0 {
+	padding-bottom: 0 !important;
+}
+
 .padding-25 > * {
 	padding: 25px;
+}
+
+.programs {
+	position: relative;
+}
+
+.programs-text {
+	margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+	.programs-text {
+		position: absolute;
+		right: 0%;
+		top: 18vw;
+	}
+}
+
+@media (min-width: 992px) {
+	.programs-text {
+		position: absolute;
+		right: 0%;
+		top: 11vw;
+	}
 }

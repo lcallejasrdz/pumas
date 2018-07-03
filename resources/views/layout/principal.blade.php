@@ -31,6 +31,36 @@
         {{-- TimePicker CSS file --}}
         {{ Html::style('https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css') }}
 
+        {{-- Slick CSS file --}}
+        {{-- {{ Html::style('assets/plugins/slick/slick.css') }}
+        {{ Html::style('assets/plugins/slick/slick-theme.css') }}
+        <style type="text/css">
+            .slider {
+                width: 90%;
+                margin: 25px auto;
+            }
+            .slick-slide {
+                margin: 0px -100px;
+            }
+            .slick-slide img {
+                width: 100%;
+            }
+            .slick-prev:before,
+            .slick-next:before {
+                color: black;
+            }
+            .slick-slide {
+                transition: all ease-in-out .3s;
+                opacity: .2;
+            }
+            .slick-active {
+                opacity: .5;
+            }
+            .slick-current {
+                opacity: 1;
+            }
+        </style> --}}
+
         {{-- Custom CSS file --}}
         {{ Html::style('assets/css/custom.css') }}
 
@@ -79,6 +109,20 @@
         {{-- TimePicker plugin --}}
         {{ Html::script("https://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js") }}
         {{ Html::script("assets/plugins/timepicker/timepicker.call.js") }}
+
+        {{-- Slick plugin --}}
+        {{-- {{ Html::script("assets/plugins/slick/slick.js") }}
+        <script type="text/javascript">
+            $(document).on('ready', function() {
+                $(".center").slick({
+                    dots: true,
+                    infinite: true,
+                    centerMode: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+            });
+        </script> --}}
 
         {{-- Google Maps --}}
         {{ Html::script("https://maps.googleapis.com/maps/api/js?key=". env('GOOGLE_MAPS_KEY') ."&libraries=places&callback=initAutocomplete", ['async', 'defer']) }}
