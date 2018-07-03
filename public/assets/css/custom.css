@@ -173,3 +173,29 @@ img {
 .contact-card p {
 	margin-bottom: 0;
 }
+
+.navbar-default .navbar-toggle {
+	border-color: #122337;
+}
+
+.navbar-toggle {
+	background-color: #122337;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-toggle:hover {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #122337;
+}
+
+@media (max-width: 767px){
+	.nav > li:nth-child(1) {
+		margin-top: 25px;
+	}
+}
