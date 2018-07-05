@@ -1,3 +1,13 @@
+@font-face {
+    font-family: GoboldRegular;
+    src: url(../fonts/GoboldRegular.otf);
+}
+
+@font-face {
+    font-family: HomesteadRegular;
+    src: url(../fonts/HomesteadRegular.ttf);
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #F1F1F1;
@@ -56,6 +66,10 @@ body {
 .container-full .row {
     margin-right: 0px;
     margin-left: 0px;
+}
+
+#carousel-principal .item img {
+	margin: 0 auto;
 }
 
 /* Background Color */
@@ -198,4 +212,8 @@ img {
 	.nav > li:nth-child(1) {
 		margin-top: 25px;
 	}
+}
+
+h2 {
+	font-family: HomesteadRegular;
 }
