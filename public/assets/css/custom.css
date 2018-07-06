@@ -217,3 +217,14 @@ img {
 h2 {
 	font-family: HomesteadRegular;
 }
+
+@media (min-width: 992px) {
+	.programs-content {
+		top: 15vw;
+	}
+}
+
+.img-module-container img {
+	max-width: 100%;
+	width: 600px;
+}
