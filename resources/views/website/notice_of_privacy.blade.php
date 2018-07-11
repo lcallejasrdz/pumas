@@ -11,7 +11,7 @@
             <h1>{{ trans($active.'.title') }}</h1>
         </div>
     </div>
-	<div class="row">
+	<div class="row pumas-margin">
 		<div class="col-xs-12">
 			<p class="text-justify">Preservar su privacidad y la seguridad de su información personal es importante para nosotros.</p>
 			<p class="text-justify">Por favor, antes de proporcionarnos sus Datos Personales (los “Datos”) tómese un momento para leer el siguiente Aviso de Privacidad (el “Aviso”) en el cual le informamos, de conformidad con lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (La “Ley”) y su Reglamento (el “Reglamento”), sobre cómo y con qué fines tratamos su información personal.</p>
