@@ -47,13 +47,13 @@ body {
 
 .navbar-brand {
 	position: absolute;
-	height: 120px;
+	height: 150px;
 	z-index: 999;
-	top: -30px;
+	top: -50px;
 }
 
 .navbar-brand img {
-	height: 120px;
+	height: 150px;
 }
 
 /* Container Full */
