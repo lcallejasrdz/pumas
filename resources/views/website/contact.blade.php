@@ -12,42 +12,22 @@
         </div>
     </div>
 	<div class="row">
-		<div class="col-xs-12 col-sm-6 contact-card">
-			<p class="text-center">Ing Ricardo Zumarán Peredo</p>
-			<p class="text-center">Consejero</p>
-			<p class="text-center">rzumaran@pumasmadin.com</p>
+		<div class="col-xs-12 contact-card">
+			<p class="text-center">Horarios de atención</p>
+			<p class="text-center">Lunes a sábado de 11:00 a.m. a 7:00 p.m.</p>
 		</div>
-		<div class="col-xs-12 col-sm-6 contact-card">
-			<p class="text-center">Lic Juan Carlos Cano Calderón</p>
-			<p class="text-center">Director Administrativo</p>
-			<p class="text-center">jccano@pumasmadin.com</p>
+		<div class="col-xs-12 contact-card">
+			<p class="text-center">Teléfonos</p>
+			<p class="text-center"><a href="tel:+525579785437">55-7978-5437</a> | <a href="tel:+525541350517">55-4135-0517</a></p>
 		</div>
-		<div class="col-xs-12 col-sm-6 contact-card">
-			<p class="text-center">DT Carlos Alberto Castro Gutiérrez</p>
-			<p class="text-center">Director Deportivo</p>
-			<p class="text-center">ccastro@pumasmadin.com</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 contact-card">
-			<p class="text-center">Profesor Gian Carlo Wilhelm</p>
-			<p class="text-center">Auxiliar Deportivo</p>
-			<p class="text-center">gwilhelm@pumasmadin.com</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 contact-card">
-			<p class="text-center">Dirección Administrativa</p>
-			<p class="text-center">dir.admin@pumasmadin.com</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 contact-card">
-			<p class="text-center">Dirección Deportiva</p>
-			<p class="text-center">dir.deportiva@pumasmadin.com</p>
-		</div>
-		<div class="col-xs-12 col-sm-6 contact-card">
+		<div class="col-xs-12 contact-card">
 			<p class="text-center">Informes</p>
-			<p class="text-center">info@pumasmadin.com</p>
+			<p class="text-center"><a href="mailto:info@pumassanmateo.com?Subject=Me%20interesa%20saber%20más%20de%20Pumas%20San%20Mateo">info@pumassanmateo.com</a></p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-			<p class="text-center">También puedes encontrarnos en https://pumas.mx/ - Escuelas oficiales de PUMAS</p>
+			<p class="text-center">También puedes encontrarnos en <a href="https://www.pumas.mx/directorio-filiales/" target="_blank">Escuelas oficiales de PUMAS</a></p>
 		</div>
 	</div>
     @include('website.modules.contact')

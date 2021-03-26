@@ -24,18 +24,6 @@
     @include('website.modules.installations')
     <div class="row">
     	<div class="col-xs-12">
-    		<ul>
-    			<li>Cancha de fútbol soccer con pasto sintético</li>
-    			<li>Oficina</li>
-    			<li>Baños para hombres y mujeres</li>
-    			<li>Gradas techadas</li>
-    			<li>Estacionamiento independiente a la cancha</li>
-    			<li>Acceso por Chiluca, Lomas Verdes, Bellavista, México Nuevo y carretera Chamapa-Lechería</li>
-    		</ul>
-    	</div>
-    </div>
-    <div class="row">
-    	<div class="col-xs-12">
     		<div id="map"></div>
     	</div>
     </div>
@@ -50,17 +38,17 @@
 		// Initialize and add the map
 		function initMap() {
   			// The location of Uluru
-  			var uluru = {lat: 19.5261857, lng: -99.2695107};
+  			var uluru = {lat: 19.500479, lng: -99.259598};
   			// The map, centered at Uluru
   			var map = new google.maps.Map(
-      			document.getElementById('map'), {zoom: 18, center: uluru});
+      			document.getElementById('map'), {zoom: 16, center: uluru});
 
   			var contentString = '<div id="content">'+
       			'<div id="siteNotice">'+
 		      	'</div>'+
-		      	'<h1 id="firstHeading" class="firstHeading">Escuela de Fútbol Pumas Madín</h1>'+
+		      	'<h1 id="firstHeading" class="firstHeading">Escuela de Fútbol Pumas San Mateo</h1>'+
 		      	'<div id="bodyContent">'+
-		      	'<p>Calle 2 s/n, Col. Nuevo Madín, Atizapán de Zaragoza, C.P. 52989</p>'+
+		      	'<p>Av. Principal S/N, Santiago Occipaco, Naucalpan de Juárez, Méx. C.P. 53250</p>'+
 		      	'</div>'+
 		      	'</div>';
 

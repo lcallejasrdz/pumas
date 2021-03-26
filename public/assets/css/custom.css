@@ -240,3 +240,7 @@ h2 {
     border: 2px solid #122337;
     border-radius: 15px;
 }
+
+#map {
+	margin-top: 8vh;
+}

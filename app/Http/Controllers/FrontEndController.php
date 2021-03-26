@@ -25,9 +25,9 @@ class FrontEndController extends Controller
         $this->compact = ['active', 'cart'];
 
         //Catalogs
-        $this->catalog_country_id = DB::table('countries')->pluck('name', 'id');
-        $this->catalog_state_id = DB::table('states')->pluck('name', 'id');
-        $this->catalog_city_id = DB::table('cities')->pluck('name', 'id');
+        // $this->catalog_country_id = DB::table('countries')->pluck('name', 'id');
+        // $this->catalog_state_id = DB::table('states')->pluck('name', 'id');
+        // $this->catalog_city_id = DB::table('cities')->pluck('name', 'id');
     }
 
     /*

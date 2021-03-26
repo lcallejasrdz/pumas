@@ -13,12 +13,12 @@
     </div>
 	<div class="row pumas-margin">
 		<div class="col-xs-12">
-			<p class="text-justify">Damos la Bienvenida a <strong>La Escuela Oficial PUMAS Madín</strong> a todos los padres de familia, alumnos, entrenadores y al público.</p>
-		    <p class="text-justify">La Escuela Oficial PUMAS Madín se forma con la intención de ser la única escuela de la zona con una estructura consolidada tanto el ámbito Deportivo como Administrativo avalada y registrada por parte del Club Universidad Nacional A. C.</p>
-		    <p class="text-justify">Todo nuestro objetivo será la formación de los jugadores trabajando con ellos. Sabemos cómo hacerlo, sabemos que es lo necesario para poderlo conseguir, de qué herramientas dotar a la Escuela Oficial de PUMAS Madín para que el objetivo sea más fácil de lograr.</p>
+			<p class="text-justify">Damos la Bienvenida a <strong>La Escuela Oficial PUMAS San Mateo</strong> a todos los padres de familia, alumnos, entrenadores y al público.</p>
+		    <p class="text-justify">La Escuela Oficial PUMAS San Mateo se forma con la intención de ser la única escuela de la zona con una estructura consolidada tanto el ámbito Deportivo como Administrativo avalada y registrada por parte del Club Universidad Nacional A. C.</p>
+		    <p class="text-justify">Todo nuestro objetivo será la formación de los jugadores trabajando con ellos. Sabemos cómo hacerlo, sabemos que es lo necesario para poderlo conseguir, de qué herramientas dotar a la Escuela Oficial de PUMAS San Mateo para que el objetivo sea más fácil de lograr.</p>
 		    <p class="text-justify">Esperamos estén orgullosos del trabajo de la escuela para que porten con orgullo el símbolo y los colores del Club Universidad Nacional al cual representamos.</p>
 		    <h2>Misión</h2>
-		    <p class="text-justify">La escuela Oficial PUMAS Madín pretende el desarrollo físico, motriz, cognitivo, afectivo y social de los niños y jóvenes por medio de los procesos y programas que les permita conocer y aprender del deporte, generando hábitos saludables y una mejor calidad de vida. Formamos personas a partir del deporte.</p>
+		    <p class="text-justify">La escuela Oficial PUMAS San Mateo pretende el desarrollo físico, motriz, cognitivo, afectivo y social de los niños y jóvenes por medio de los procesos y programas que les permita conocer y aprender del deporte, generando hábitos saludables y una mejor calidad de vida. Formamos personas a partir del deporte.</p>
 		    <h2>Visión</h2>
 		    <p class="text-justify">Ser una de las mejores escuelas filiales de PUMAS llevando una práctica deportiva, reconocida como una de las mejores escuelas a nivel nacional a partir de equipos conformados por niños y jóvenes desatacados, además nos preocupamos por la formación integral de los alumnos que la conforman fomentando la disciplina y los valores del Club.</p>
 		    <h2>Objetivos</h2>
