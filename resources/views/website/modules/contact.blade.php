@@ -1,6 +1,6 @@
 <div class="row color-blue">
 	<div class="col-md-6 img-module-container">
-		<img src="{{ URL::to('/assets/images/index/contact.png') }}" alt="...">
+		<img src="{{ URL::to('/assets/images/index/contact.jpg') }}" alt="...">
 	</div>
 	<div class="col-md-6 padding-25">
 		<h2 class="color-blue">LLENA EL FORMULARIO Y EN BREVE NOS PONDREMOS EN CONTACTO CONTIGO</h2>

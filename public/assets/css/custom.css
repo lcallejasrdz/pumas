@@ -147,8 +147,8 @@ img {
 	color: #fff;
 }
 
-.footer a:nth-child(3),
-.footer a:nth-child(4) {
+.footer p.social-media a:nth-child(3),
+.footer p.social-media a:nth-child(4) {
 	margin-left: 30px;
 }
 
@@ -223,6 +223,10 @@ h2 {
 	.programs-content {
 		top: 15vw;
 	}
+}
+
+.programs-content li {
+	margin-bottom: 2.5vw;
 }
 
 .img-module-container img {
