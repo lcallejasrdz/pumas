@@ -1,5 +1,5 @@
 APP_NAME="Pumas San Mateo"
-APP_ENV=local
+APP_ENV=production
 APP_KEY=base64:iR6lJFyT1k9ZBVX8CAKfkF8GwsnQ5HCBzTElzMeDaa4=
 APP_DEBUG=true
 APP_LOG=single
@@ -43,7 +43,7 @@ MAIL_PASSWORD=Xpco30-01
 MAIL_ENCRYPTION=ssl
 
 MAIL_FROM_ADDRESS=info@pumassanmateo.com
-MAIL_FROM_NAME='Pumas San Mateo'
+MAIL_FROM_NAME='Sitio Web Pumas San Mateo'
 
 MAIL_ADMIN_ADDRESS=info@pumassanmateo.com
 MAIL_ADMIN_NAME='Pumas San Mateo'
