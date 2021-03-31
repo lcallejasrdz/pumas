@@ -50,6 +50,8 @@ body {
 	height: 150px;
 	z-index: 999;
 	top: -50px;
+	max-height: 150px;
+	max-width: 180px;
 }
 
 .navbar-brand img {
@@ -153,7 +155,7 @@ img {
 }
 
 .footer img {
-	padding: 25px;
+	padding: 53px 25px;
 	max-width: 150px;
 }
 
