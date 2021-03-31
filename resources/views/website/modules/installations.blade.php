@@ -65,8 +65,8 @@
 					<a href="#" title="">
 						<span><img src="{{ URL::to('/assets/images/index/slide2i.jpg') }}" alt=""/>9</span>
 					</a>
-				</div> --}}
-			</div>
+				</div>
+			</div> --}}
 			<div class="ws_shadow"></div>
 		</div>
 		<!-- End WOWSlider.com BODY section -->
