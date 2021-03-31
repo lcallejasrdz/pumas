@@ -2,7 +2,7 @@
 
 return [
 
-    'title'                  		=> 'Bases',
+    'title'                  		=> 'Plan de Trabajo',
 
     'send'                          => 'Enviar',
 

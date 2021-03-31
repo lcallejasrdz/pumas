@@ -11,7 +11,7 @@
             <h1>{{ trans($active.'.title') }}</h1>
         </div>
     </div>
-    @include('website.modules.bases')
+    @include('website.modules.workplan')
 @endsection
 
 @section('scripts')

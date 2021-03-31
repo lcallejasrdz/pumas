@@ -13,7 +13,7 @@
     </div>
 	<div class="row">
 		<div class="col-xs-12 contact-card">
-			<p class="text-center">Horarios de atención</p>
+			<p class="text-center">Horarios de oficina</p>
 			<p class="text-center">Lunes a sábado de 11:00 a.m. a 7:00 p.m.</p>
 		</div>
 		<div class="col-xs-12 contact-card">

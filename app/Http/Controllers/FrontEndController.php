@@ -40,11 +40,11 @@ class FrontEndController extends Controller
     	return view('index', compact($this->compact));
     }
 
-    public function getAboutUs(){
-        $active = 'about_us';
+    public function getObjectives(){
+        $active = 'objectives';
         $cart = Session::get('cart');
 
-        return view('website.about_us', compact($this->compact));
+        return view('website.objectives', compact($this->compact));
     }
 
     public function getInstallations(){
@@ -54,11 +54,11 @@ class FrontEndController extends Controller
         return view('website.installations', compact($this->compact));
     }
 
-    public function getBases(){
-        $active = 'bases';
+    public function getWorkplan(){
+        $active = 'workplan';
         $cart = Session::get('cart');
 
-        return view('website.bases', compact($this->compact));
+        return view('website.workplan', compact($this->compact));
     }
 
     public function getContact(){

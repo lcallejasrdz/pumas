@@ -47,10 +47,10 @@
 	</div>
 
 	{{-- Bases --}}
-	@include('website.modules.bases')
+	@include('website.modules.workplan')
 
 	{{-- Programas --}}
-	@include('website.modules.programs')
+	@include('website.modules.benefits')
 
 	{{-- Instalaciones --}}
 	@include('website.modules.installations')

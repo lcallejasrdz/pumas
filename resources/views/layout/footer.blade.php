@@ -4,7 +4,7 @@
 	</div>
 	<div class="col-sm-6">
 		<p class="text-center">
-			<a href="{{ URL::route('notice_of_privacy') }}">Aviso de Privacidad</a>
+			{{-- <a href="{{ URL::route('notice_of_privacy') }}">Aviso de Privacidad</a> --}}
 			<br><a href="{{ URL::to('/assets/files/carta-de-autorizacion-de-imagen.pdf') }}" target="_blank">Autorización de Imagen</a>
 			<br><a href="{{ URL::to('/assets/files/carta-relevo-de-responsabilidades.pdf') }}" target="_blank">Relevo de Responsabilidades</a>
 			<br><a href="{{ URL::to('/assets/files/reglamento-interno.pdf') }}" target="_blank">Reglamento Interno</a>

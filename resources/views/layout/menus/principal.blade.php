@@ -29,8 +29,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ URL::route('about_us') }}" class="text-blue">
-                        NOSOTROS
+                    <a href="{{ URL::route('objectives') }}" class="text-blue">
+                        OBJETIVOS
                     </a>
                 </li>
                 <li>
@@ -44,8 +44,8 @@
                     </a>
                 </li> --}}
                 <li>
-                    <a href="{{ URL::route('bases') }}" class="text-blue">
-                        BASES
+                    <a href="{{ URL::route('workplan') }}" class="text-blue">
+                        PLAN DE TRABAJO
                     </a>
                 </li>
                 <li>
