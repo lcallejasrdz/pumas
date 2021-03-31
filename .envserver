@@ -4,7 +4,7 @@ APP_KEY=base64:iR6lJFyT1k9ZBVX8CAKfkF8GwsnQ5HCBzTElzMeDaa4=
 APP_DEBUG=true
 APP_LOG=single
 APP_LOG_LEVEL=debug
-APP_URL=http://pumassanmateo.test
+APP_URL=http://pumassanmateo.com
 
 APP_TIMEZONE=America/Mexico_City
 APP_LOCALE=es
