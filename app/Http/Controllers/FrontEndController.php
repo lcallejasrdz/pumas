@@ -61,6 +61,13 @@ class FrontEndController extends Controller
         return view('website.workplan', compact($this->compact));
     }
 
+    public function getDownloads(){
+        $active = 'downloads';
+        $cart = Session::get('cart');
+
+        return view('website.downloads', compact($this->compact));
+    }
+
     public function getContact(){
         $active = 'contact';
         $cart = Session::get('cart');

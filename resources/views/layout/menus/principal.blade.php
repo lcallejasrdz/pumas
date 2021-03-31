@@ -49,6 +49,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="{{ URL::route('downloads') }}" class="text-blue">
+                        DESCARGAS
+                    </a>
+                </li>
+                <li>
                     <a href="{{ URL::route('contact') }}" class="text-blue">
                         CONTACTO
                     </a>

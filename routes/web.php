@@ -29,6 +29,7 @@ Route::group(array('middleware' => 'langMiddleware'), function () {
     Route::get('objectives', array('as' => 'objectives', 'uses' => 'FrontEndController@getObjectives'));
     Route::get('installations', array('as' => 'installations', 'uses' => 'FrontEndController@getInstallations'));
     Route::get('workplan', array('as' => 'workplan', 'uses' => 'FrontEndController@getWorkplan'));
+    Route::get('downloads', array('as' => 'downloads', 'uses' => 'FrontEndController@getDownloads'));
     Route::get('contact', array('as' => 'contact', 'uses' => 'FrontEndController@getContact'));
     Route::post('contact', array('as' => 'contact', 'uses' => 'FrontEndController@postContact'));
     Route::get('notice_of_privacy', array('as' => 'notice_of_privacy', 'uses' => 'FrontEndController@getNoticeOfPrivacy'));
