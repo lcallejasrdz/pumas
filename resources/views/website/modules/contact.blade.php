@@ -5,6 +5,7 @@
 	<div class="col-md-6 padding-25">
 		<h2 class="color-blue">LLENA EL FORMULARIO Y EN BREVE NOS PONDREMOS EN CONTACTO CONTIGO</h2>
       {!! Form::open(['route' => 'contact', 'method' => 'post', 'id' => 'formValidation', 'class' => 'form-horizontal']) !!}
+          {{ csrf_field() }}
           <div class="form-group {{ $errors->first('name') ? 'has-error' : '' }}">
               <div class="col-sm-12">
                         {!! Form::text('name', old('name'), ['id' => 'name', 'class' => 'form-control', 'placeholder' => trans('validation.attributes.name')]) !!}
