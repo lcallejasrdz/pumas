@@ -31,7 +31,7 @@
           </div>
           <div class="form-group">
               <div class="col-sm-12 text-right">
-                  {!! Form::submit(trans($active.'.send'), ['class' => 'btn btn-default g-recaptcha' data-sitekey="6LdfZBsbAAAAAH6UB1CNmrLpQ6W1peKISkBnZocF" data-callback='onSubmit' data-action='submit']) !!}
+                  {!! Form::submit(trans($active.'.send'), ['class' => 'btn btn-default g-recaptcha', 'data-sitekey' => '6LdfZBsbAAAAAH6UB1CNmrLpQ6W1peKISkBnZocF', 'data-callback' => 'onSubmit', 'data-action' => 'submit']) !!}
               </div>
           </div>
       {!! Form::close() !!}
